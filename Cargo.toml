@@ -1,0 +1,10 @@
+[package]
+name = "SigmaOS-omarchy-installer"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "SigmaOS omarchy-installer component"
+
+[lib]
+name = "omarchy_installer"
+path = "src/lib.rs"
