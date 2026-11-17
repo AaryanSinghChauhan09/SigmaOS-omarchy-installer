@@ -3,12 +3,12 @@ name = "SigmaOS-omarchy-installer"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "omarchy-installer component"
+description = "Package installer for SigmaOS inspired by Omarchy Linux"
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-filesystem", "SigmaOS-packages", "SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
